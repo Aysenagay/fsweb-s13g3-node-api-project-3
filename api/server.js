@@ -1,4 +1,4 @@
-const express = require('express');
+const express = require("express");
 
 const server = express();
 
@@ -6,7 +6,7 @@ const server = express();
 
 // global ara yazılımlar ve kullanıcı routelarının buraya bağlanması gerekir
 
-server.get('/', (req, res) => {
+server.get("/", (req, res) => {
   res.send(`<h2>Biraz ara yazılım yazalım!</h2>`);
 });
 
